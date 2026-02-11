@@ -1,0 +1,8 @@
+Options +ExecCGI +Includes
+AuthUserFile /data/www/departments/history/waughj/classes/civilwar/password/.htpasswd
+AuthGroupFile /data/www/departments/history/waughj/classes/civilwar/password/.htgroup
+AuthName "CivilWar"
+AuthType Basic
+<Limit GET>
+require group history
+</Limit>

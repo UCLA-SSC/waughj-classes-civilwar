@@ -1,0 +1,77 @@
+AuthUserFile /info-data/www-data/history/waughj/classes/civilwar/password/pass/.htpasswd
+AuthGroupFile /dev/null
+AuthName ""
+AuthType Basic
+<Limit GET>
+require user 
+</Limit>
+AuthUserFile /info-data/www-data/history/waughj/classes/civilwar/password/pass/.htpasswd
+AuthGroupFile /dev/null
+AuthName "-c"
+AuthType Basic
+<Limit GET>
+require user .htpasswd
+</Limit>
+AuthUserFile /info-data/www-data/history/waughj/classes/civilwar/password/pass/.htpasswd
+AuthGroupFile /dev/null
+AuthName "-c"
+AuthType Basic
+<Limit GET>
+require user civilwar
+</Limit>
+AuthUserFile /info-data/www-data/history/waughj/classes/civilwar/password/pass/.htpasswd
+AuthGroupFile /dev/null
+AuthName "-c"
+AuthType Basic
+<Limit GET>
+require user civilwar
+</Limit>
+AuthUserFile /info-data/www-data/history/waughj/classes/civilwar/password/pass/.htpasswd
+AuthGroupFile /dev/null
+AuthName "-c"
+AuthType Basic
+<Limit GET>
+require user abe
+</Limit>
+AuthUserFile /info-data/www-data/history/waughj/classes/civilwar/password/pass/.htpasswd
+AuthGroupFile /dev/null
+AuthName "-c"
+AuthType Basic
+<Limit GET>
+require user civilwar
+</Limit>
+AuthUserFile /info-data/www-data/history/waughj/classes/civilwar/password/pass/.htpasswd
+AuthGroupFile /dev/null
+AuthName "civilwar"
+AuthType Basic
+<Limit GET>
+require user 
+</Limit>
+AuthUserFile /info-data/www-data/history/waughj/classes/civilwar/password/pass/.htpasswd
+AuthGroupFile /dev/null
+AuthName "-c"
+AuthType Basic
+<Limit GET>
+require user civilwar
+</Limit>
+AuthUserFile /info-data/www-data/history/waughj/classes/civilwar/password/pass/.htpasswd
+AuthGroupFile /dev/null
+AuthName "abe"
+AuthType Basic
+<Limit GET>
+require user 
+</Limit>
+AuthUserFile /info-data/www-data/history/waughj/classes/civilwar/password/pass/.htpasswd
+AuthGroupFile /dev/null
+AuthName "-c"
+AuthType Basic
+<Limit GET>
+require user abe
+</Limit>
+AuthUserFile /info-data/www-data/history/waughj/classes/civilwar/password/pass/.htpasswd
+AuthGroupFile /dev/null
+AuthName "-c"
+AuthType Basic
+<Limit GET>
+require user abe
+</Limit>

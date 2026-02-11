@@ -1,0 +1,10 @@
+Options ExecCGI Includes
+AddType text/x-server-parsed-html .html
+AuthUserFile /info-data/www-data/history/waughj/classes/civilwar/password/.htpasswd
+AuthGroupFile /info-data/www-data/history/waughj/classes/civilwar/password/.htgroup
+AuthName CivilWar
+AuthType Basic
+<Limit GET>
+require group history
+
+</Limit>
